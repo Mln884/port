@@ -1,1 +1,22 @@
+@import url('https://fonts.google.com/share?selection.family=Amatic+SC:wght@400;700');
 
+:root {
+    --cor-principal: #AAAAAA;
+    --cor-secundaria: #AAAAAA;
+    --cor-destaque: #AAAAAA;
+}
+
+body {
+    font-family: "Amatic SC", sans-serif;
+}
+h1, h2, h5{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a{
+    color:var(--cor-principal);
+}
+
+footer a:hover{
+    color:var(--cor-destaque);
